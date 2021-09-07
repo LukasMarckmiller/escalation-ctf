@@ -7,7 +7,7 @@ tar -xvf escalation-final.tar.gz && cd escalation
 echo '###########################'
 echo 'Login to GitLab Registry'
 echo '###########################'
-docker login registry.gitlab.com -u j.varenkamp@gmx.de -p P-cv1-j4ZKxDjR3CuCQi
+sudo echo $CR_PAT | sudo docker login ghcr.io -u $(echo | awk -v v=$CR_NAME '{print tolower(v)}') --password-stdin
 echo '###########################'
 echo 'Running docker-compose'
 echo '###########################'
