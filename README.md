@@ -6,7 +6,7 @@ This Repository contains a web challenge with a user token and a Linux privilege
 1. Download the **Git Large File Storage** extension from [here](https://git-lfs.github.com/).
 2. Install **Git Large File Extension** with ```git lfs install```
 3. Clone Repository.
-4. Create personal access token [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) *(To get access to the github container registry that contains the docker images for this challange)*.
+4. Create personal access token [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) *(To get access to the github container registry that contains the docker images for this challenge)*.
 5. Set env variable for access token ```$ export CR_PAT=YOUR_TOKEN```, ```$ export CR_NAME=YOUR_GITHUB_USERNAME```.
 6. Run ```sudo chmod +x install.sh && sudo -E ./install.sh```.
 7. Lets hack!.
