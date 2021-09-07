@@ -8,7 +8,7 @@ This Repository contains a web challenge with a user token and a Linux privilege
 3. Clone Repository.
 4. Create personal access token [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) *(To get access to the github container registry that contains the docker images for this challange)*.
 5. Set env variable for access token ```$ export CR_PAT=YOUR_TOKEN```, ```$ export CR_NAME=YOUR_GITHUB_USERNAME```.
-6. Run ```sudo ./install.sh```.
+6. Run ```sudo chmod +x install.sh && sudo ./install.sh```.
 7. Lets hack!.
 
 ## Walkthrough
