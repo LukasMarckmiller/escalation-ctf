@@ -4,7 +4,7 @@ This Repository contains a web challenge with a user token and a Linux privilege
 
 ## Install 
 1. Clone Repository
-2. Create personal access token (To get access to the docker images this ctf challange consists of)
+2. Create personal access token *(To get access to the github container registry that contains the docker images for this challange)*
 3. Set env variable for access token ```$ export CR_PAT=YOUR_TOKEN```
 4. Run ```sudo ./install.sh```
 5. Lets hack!
