@@ -1,5 +1,5 @@
 # CTF like challenge powered by Docker
-This Repository contains a web challenge with 1 user token and a Linux privilege escalation challenge with a root token.
+This Repository contains a web challenge with a user token and a Linux privilege escalation challenge with a root token.
 <br>This challenge is part of the Hacker Contest at the TU Darmstadt 2021.
 
 ## Install 
