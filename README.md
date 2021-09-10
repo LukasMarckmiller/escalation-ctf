@@ -1,6 +1,6 @@
 # CTF challenge powered by Docker
 This Repository contains a web challenge with a user token and a Linux privilege escalation challenge with a root token.
-<br>This challenge is part of the Hacker Contest at the TU Darmstadt 2021.
+<br>This challenge was part of the Hacker Contest at the TU Darmstadt 2021.
 
 ## Install 
 1. Download the **Git Large File Storage** extension from [here](https://git-lfs.github.com/). Install with ```git lfs install```
